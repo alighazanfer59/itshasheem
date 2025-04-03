@@ -103,31 +103,31 @@ class RSIBreakoutMomentum(BaseStrategy):
 
     def next(self):
         current_price = self.data.Close[-1]
+        # if self.position:
+        #     entry_price = self.trades[-1].entry_price if self.trades else None
+            
+        #     for trade in self.trades:
+        #         if trade.is_long:
+        #             trade.sl = entry_price * 0.95
+        #             trade.tp = entry_price * 1.05
+        #         else:
+        #             trade.sl = entry_price * 1.05
+        #             trade.tp = entry_price * 0.95
         if self.position:
             entry_price = self.trades[-1].entry_price if self.trades else None
-            
-            for trade in self.trades:
-                if trade.is_long:
-                    trade.sl = entry_price * 0.95
-                    trade.tp = entry_price * 1.05
-                else:
-                    trade.sl = entry_price * 1.05
-                    trade.tp = entry_price * 0.95
-        # if self.position:
-            # entry_price = self.trades[-1].entry_price if self.trades else None
-            # if entry_price:
-            #     if self.position.is_long:
-            #         if (
-            #             current_price >= entry_price * 1.05
-            #             or current_price <= entry_price * 0.95
-            #         ):
-            #             self.position.close()
-            #     elif self.position.is_short:
-            #         if (
-            #             current_price <= entry_price * 0.95
-            #             or current_price >= entry_price * 1.05
-            #         ):
-            #             self.position.close()
+            if entry_price:
+                if self.position.is_long:
+                    if (
+                        current_price >= entry_price * 1.05
+                        or current_price <= entry_price * 0.95
+                    ):
+                        self.position.close()
+                elif self.position.is_short:
+                    if (
+                        current_price <= entry_price * 0.95
+                        or current_price >= entry_price * 1.05
+                    ):
+                        self.position.close()
 
         if (
             not self.position
@@ -165,26 +165,26 @@ class MACDBollingerMomentum(BaseStrategy):
         if self.position:
             entry_price = self.trades[-1].entry_price if self.trades else None
             
-            for trade in self.trades:
-                if trade.is_long:
-                    trade.sl = entry_price * 0.95
-                    trade.tp = entry_price * 1.05
-                else:
-                    trade.sl = entry_price * 1.05
-                    trade.tp = entry_price * 0.95
-        #     if entry_price:
-        #         if self.position.is_long:
-        #             if (
-        #                 current_price >= entry_price * 1.05
-        #                 or current_price <= entry_price * 0.95
-        #             ):
-        #                 self.position.close()
-        #         elif self.position.is_short:
-        #             if (
-        #                 current_price <= entry_price * 0.95
-        #                 or current_price >= entry_price * 1.05
-        #             ):
-        #                 self.position.close()
+            # for trade in self.trades:
+            #     if trade.is_long:
+            #         trade.sl = entry_price * 0.95
+            #         trade.tp = entry_price * 1.05
+            #     else:
+            #         trade.sl = entry_price * 1.05
+            #         trade.tp = entry_price * 0.95
+            if entry_price:
+                if self.position.is_long:
+                    if (
+                        current_price >= entry_price * 1.05
+                        or current_price <= entry_price * 0.95
+                    ):
+                        self.position.close()
+                elif self.position.is_short:
+                    if (
+                        current_price <= entry_price * 0.95
+                        or current_price >= entry_price * 1.05
+                    ):
+                        self.position.close()
 
         if not self.position and self.can_trade_long() and crossover(self.macd, 0) and self.bb_width[-1] > 0:
             self.buy(size=self.calculate_trade_size(), sl = (current_price * 0.95), tp = (current_price * 1.05))
@@ -215,26 +215,26 @@ class MovingAverageTrend(BaseStrategy):
         if self.position:
             entry_price = self.trades[-1].entry_price if self.trades else None
             
-            for trade in self.trades:
-                if trade.is_long:
-                    trade.sl = entry_price * 0.95
-                    trade.tp = entry_price * 1.05
-                else:
-                    trade.sl = entry_price * 1.05
-                    trade.tp = entry_price * 0.95
-            # if entry_price:
-            #     if self.position.is_long:
-            #         if (
-            #             current_price >= entry_price * 1.05
-            #             or current_price <= entry_price * 0.95
-            #         ):
-            #             self.position.close()
-            #     elif self.position.is_short:
-            #         if (
-            #             current_price <= entry_price * 0.95
-            #             or current_price >= entry_price * 1.05
-            #         ):
-            #             self.position.close()
+            # for trade in self.trades:
+            #     if trade.is_long:
+            #         trade.sl = entry_price * 0.95
+            #         trade.tp = entry_price * 1.05
+            #     else:
+            #         trade.sl = entry_price * 1.05
+            #         trade.tp = entry_price * 0.95
+            if entry_price:
+                if self.position.is_long:
+                    if (
+                        current_price >= entry_price * 1.05
+                        or current_price <= entry_price * 0.95
+                    ):
+                        self.position.close()
+                elif self.position.is_short:
+                    if (
+                        current_price <= entry_price * 0.95
+                        or current_price >= entry_price * 1.05
+                    ):
+                        self.position.close()
 
         if (
             not self.position
