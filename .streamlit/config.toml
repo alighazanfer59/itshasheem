@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#B16CEA"  # Electric Purple for Contrast
+backgroundColor = "#252525"  # Dark Graphite (Sleek but not Black)
+secondaryBackgroundColor = "#3A2E52"  # Deep Purple Sidebar for a Unique Look
+textColor = "#FFFFFF"  # Bright White for Clarity
+font = "sans serif"

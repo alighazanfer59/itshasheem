@@ -1,0 +1,10 @@
+streamlit
+backtesting
+pandas
+numpy
+yfinance
+pandas-ta
+cdp-sdk
+ta
+plotly
+nest_asyncio

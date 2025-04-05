@@ -1,0 +1,1250 @@
+{
+    "BTCUSDT": {
+        "price_precision": 1.0,
+        "amount_precision": 0.0001
+    },
+    "ETHUSDT": {
+        "price_precision": 0.1,
+        "amount_precision": 0.001
+    },
+    "ADAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "XRPUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SOLUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "UNIUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ATOMUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "BCHUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "DOTUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "EOSUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "FILUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "LINKUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "LTCUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "AVAXUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "XMRUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "GMTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LUNA2USDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "OPUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "NEARUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "APEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "DOGEUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "FTMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TRXUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "MANAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "CRVUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "AAVEUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "SNXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "XTZUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "XLMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ALGOUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SANDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "OMGUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ENJUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "COMPUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "YFIUSDT": {
+        "price_precision": 1.0,
+        "amount_precision": 0.0001
+    },
+    "CHZUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "LPTUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "BATUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MKRUSDT": {
+        "price_precision": 0.1,
+        "amount_precision": 0.001
+    },
+    "AXSUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "GALAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ETCUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "KAVAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LRCUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "KSMUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "GRTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "FLOWUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ZECUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "QTUMUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "DASHUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "1INCHUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "KNCUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "OGNUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SUSHIUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "STORJUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "RUNEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "EGLDUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "DYDXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "RENUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ANKRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "ICPUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ETHWUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "BANDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "BALUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ALICEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ICXUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ENSUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "AUDIOUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SCUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "MINAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "GLMRUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "THETAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "QNTUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "IMXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "APTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "FLRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "BLURUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "GMXUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "MASKUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LDOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "USDCUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "USDTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ARBUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "FETUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "STXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "CVXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "WOOUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "JASMYUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "INJUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ZRXUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "RLCUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SUIUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PEPEUSDT": {
+        "price_precision": 1e-10,
+        "amount_precision": 1000.0
+    },
+    "SHIBUSDT": {
+        "price_precision": 1e-09,
+        "amount_precision": 1000.0
+    },
+    "TUSDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SXPUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ARPAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ALPHAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "STGUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "HFTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ACHUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "WLDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LINAUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "CFXUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "PAXGUSDT": {
+        "price_precision": 0.1,
+        "amount_precision": 0.001
+    },
+    "AGLDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "FXSUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "SEIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BNBUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "PYTHUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TIAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "JTOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "BONKUSDT": {
+        "price_precision": 1e-09,
+        "amount_precision": 1000.0
+    },
+    "KASUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "WIFUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ORDIUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.01
+    },
+    "UMAUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "LSKUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "API3USDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "JUPUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "DYMUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "STRKUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SPELLUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "HNTUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "BADGERUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "WUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "BLZUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "YGGUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ONDOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SAGAUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "TRUUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BEAMUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "BOMEUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "ENAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "NEOUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "SUPERUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "UNFIUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "TONUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "COTIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BICOUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ASTRUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "CHRUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SATSUSDT": {
+        "price_precision": 1e-11,
+        "amount_precision": 1.0
+    },
+    "ARUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.01
+    },
+    "ETHFIUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "ZETAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "POWRUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MOVRUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "FLOKIUSDT": {
+        "price_precision": 1e-08,
+        "amount_precision": 1000.0
+    },
+    "ARKMUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "AEVOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "C98USDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "PERPUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PENDLEUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "CTSIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ALTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TURBOUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 100.0
+    },
+    "TLMUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 10.0
+    },
+    "TNSRUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 1.0
+    },
+    "PIXELUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "WENUSDT": {
+        "price_precision": 1e-08,
+        "amount_precision": 1000.0
+    },
+    "PEOPLEUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BRETTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "POPCATUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BNTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "GTCUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "TOKENUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MEWUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "BBUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "STEEMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TRBUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "ZROUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PORTALUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MYROUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "HBARUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BONDUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "BIGTIMEUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "TAOUSDT": {
+        "price_precision": 0.01,
+        "amount_precision": 0.01
+    },
+    "RADUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "NMRUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ZEUSUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "NOTUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "HIGHUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "RATSUSDT": {
+        "price_precision": 1e-08,
+        "amount_precision": 1000.0
+    },
+    "BAKEUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "DRIFTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "KEYUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "MNTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "XAIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "REZUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BNXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "CLOUDUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "NTRNUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MAVIAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "MTLUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "RENDERUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "L3USDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "SWEATUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "ZKUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "OMUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ULTIUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "MANTAUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "COREUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MOGUSDT": {
+        "price_precision": 1e-10,
+        "amount_precision": 1000.0
+    },
+    "MEMEUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "AUCTIONUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 0.1
+    },
+    "RAREUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SYNUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LISTAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "CELRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "IDEXUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "LOOMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "POLUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "GHSTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "FIDAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "PRCLUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "RSRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "BANANAUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "CVCUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "EIGENUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "NEIROUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "MERLUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "DOGSUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "DARUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ACEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "REEFUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "CELOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PONKEUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SUNDOGUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "CATIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "UXLINKUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PUFFERUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "GLMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "GASUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "LQTYUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SUNUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "LEVERUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "MAVUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "VIDTUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "RDNTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "RAYUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "DBRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "LITUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "CYBERUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "HMSTRUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "ARKUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ROSEUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "GOATUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "STMXUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "SAFEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "OXTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "CKBUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "CETUSUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MOODENGUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "CATUSDT": {
+        "price_precision": 1e-08,
+        "amount_precision": 1000.0
+    },
+    "DIAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ALPACAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "KDAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "VETUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "RPLUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "BELUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "EDUUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MAGICUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "OGUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "SSVUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "METISUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "ATHUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "POLYXUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "DEGENUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "DOGUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "ONTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "ONGUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "VANRYUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SCRUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "KAIAUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "DEEPUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "GRASSUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "SWELLUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "AIUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "XUSDT": {
+        "price_precision": 1e-08,
+        "amount_precision": 1.0
+    },
+    "TROYUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "SCRTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "QUICKUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 1.0
+    },
+    "OMNIUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "HOTUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 1.0
+    },
+    "CAKEUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "AKTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "PNUTUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ACTUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "BANUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "NEIROETHUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 10.0
+    },
+    "SLERFUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "MORPHOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "TAIKOUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "AXLUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "COSUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 10.0
+    },
+    "COWUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "ZILUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 10.0
+    },
+    "FLUXUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "FIOUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 10.0
+    },
+    "DUSKUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "DENTUSDT": {
+        "price_precision": 1e-07,
+        "amount_precision": 100.0
+    },
+    "BLASTUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 10.0
+    },
+    "ZENUSDT": {
+        "price_precision": 0.001,
+        "amount_precision": 0.1
+    },
+    "LOOKSUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 10.0
+    },
+    "FLMUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 10.0
+    },
+    "CSPRUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 1.0
+    },
+    "SLPUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 100.0
+    },
+    "IOTAUSDT": {
+        "price_precision": 0.0001,
+        "amount_precision": 1.0
+    },
+    "HIPPOUSDT": {
+        "price_precision": 1e-05,
+        "amount_precision": 10.0
+    },
+    "XVGUSDT": {
+        "price_precision": 1e-06,
+        "amount_precision": 100.0
+    }
+}
