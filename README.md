@@ -245,6 +245,12 @@ stats = run_backtest(df, strategy_name, strategy_config)
 | `pages/Saved_Strategies.py`     | View saved strategy results                     |
 | `requirements.txt`              | List of required packages                       |
 | `venv/`                         | Virtual environment folder (auto-generated)     |
+| `binance_precisions.json`       | Amount and price precision                      |
+| `coinbase_data.py`              | Module to fetch data from coinbase              |
+| `logger.py`                     | Log module to debug issues                      |
+| `metrics_display.py`            | To display key metrices                         |
+| `strategy_storage.py`           | Module to store params & results in db          |
+| `trade_analysis.py`             | To process data for analysis &plotting buy&hold |
 
 ---
 
