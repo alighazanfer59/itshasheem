@@ -173,7 +173,7 @@ streamlit run Home.py
 
 - **Backtest_Strategies.py** – Run backtests using your selected strategy and parameters.
 - **Saved_Strategies.py** – View and load previously saved backtested strategies.
-- **Compare_Key_Metrices.py** – Compare key performance metrics across multiple strategies.
+- **Compare_Key_Metrices.py** – Compare key performance metrics across multiple strategies saved records.
 
 > Make sure `Home.py` and all pages are in the correct structure for Streamlit to detect and render.
 
