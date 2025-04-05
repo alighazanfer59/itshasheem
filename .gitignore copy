@@ -1,0 +1,27 @@
+*.csv
+*.ipynb_checkpoints
+*.pyc
+*.log
+/.venv
+Strategies.py
+temp.py
+test_.ipynb
+test2.ipynb
+view_saved_strategies.py
+itshasheem-main/
+Pietro_Riccio/
+backtesting-py-2022-main/
+__pycache__/
+All_strategies_001.py
+app1.py
+app2.py
+backtest_001.py
+Backtesting_py.ipynb
+backtesting-py-2022-main.zip
+hasfar_project.rar
+itshasheem-main.zip
+SOw-alighazanfer59 Algotrade Mar 2025.docx
+strategy~001.py
+All_strategies_.py
+app.py
+style_loader.py
