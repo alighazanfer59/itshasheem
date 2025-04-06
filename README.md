@@ -7,7 +7,37 @@ Strategies are defined in `All_strategies.py`, registered in a simple JSON file,
 
 ---
 
-## 🧠 2. How to Add a New Strategy
+## 🧪 2. Virtual Environment Setup
+
+Before you start, make sure to set up your virtual environment and install the required packages.
+
+### 🪟 For Windows
+
+```bash
+cd your_project_folder
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 🍏 For macOS / Linux
+
+```bash
+cd your_project_folder
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+### ❎ To Deactivate Virtual Environment
+
+```bash
+deactivate
+```
+
+---
+
+## 🧠 3. How to Add a New Strategy
 
 You **do NOT need to modify `backtest.py`** anymore. Just follow the steps below:
 
@@ -53,9 +83,7 @@ class MyNewStrategy:
 
 ---
 
----
-
-## 🧠 3. How to Add a New Strategy with Custom Indicators (Backtesting.py Style)
+## 🧠 4. How to Add a New Strategy with Custom Indicators (Backtesting.py Style)
 
 This project also supports strategies using the [`backtesting.py`](https://kernc.github.io/backtesting.py/) engine.
 
@@ -132,7 +160,7 @@ Update `strategy_registry.json`:
 
 ---
 
-## ⚙️ 4. How Strategies Are Loaded Dynamically
+## ⚙️ 5. How Strategies Are Loaded Dynamically
 
 In `backtest.py`, use the following to dynamically load from the registry:
 
@@ -159,9 +187,9 @@ STRATEGY_CLASSES = load_strategy_registry()
 
 ---
 
-## 🖥️ 5. Running the Application
+## 🖥️ 6. Running the Application
 
-### ✅ Step 5a: Run the Backtest (via Streamlit or Code)
+### ✅ Step 6a: Run the Backtest (via Streamlit or Code)
 
 The main entry point for this Streamlit app is:
 
@@ -190,43 +218,6 @@ From code:
 ```python
 from backtest import run_backtest
 stats = run_backtest(df, "Strategy 6", config)
-```
-
-## 💻 6. Virtual Environment Setup
-
-### 🪟 For Windows
-
-```bash
-cd your_project_folder
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 🍏 For macOS / Linux
-
-```bash
-cd your_project_folder
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-### ❎ To Deactivate Virtual Environment
-
-```bash
-deactivate
-```
-
----
-
-## 🧪 7. Running the Backtest (Functionally)
-
-Backtesting is also supported programmatically via:
-
-```python
-from backtest import run_backtest
-stats = run_backtest(df, strategy_name, strategy_config)
 ```
 
 ---
