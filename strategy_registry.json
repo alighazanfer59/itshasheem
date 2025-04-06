@@ -1,0 +1,6 @@
+{
+  "Strategy 1": "All_strategies.BollingerRSIReversal",
+  "Strategy 2": "All_strategies.RSIBreakoutMomentum",
+  "Strategy 3": "All_strategies.MACDBollingerMomentum",
+  "Strategy 4": "All_strategies.MovingAverageTrend"
+}

@@ -1,0 +1,50 @@
+{
+  "strategies": {
+    "Strategy 1": {
+      "description": "Reversal Strategy using Bollinger Bands & RSI",
+      "indicators": {
+        "rsi_length": 14,
+        "rsi_overbought": 75,
+        "rsi_oversold": 25,
+        "bb_length": 20,
+        "bb_std": 2
+      }
+    },
+    "Strategy 2": {
+      "description": "Overbought Breakout using RSI & Bollinger Bands",
+      "indicators": {
+        "rsi_length": 14,
+        "rsi_overbought": 75,
+        "rsi_oversold": 25,
+        "bb_length": 20,
+        "bb_std": 2,
+        "adx_length": 14,
+        "adx_threshold": 30,
+        "take_profit_pct": 5.0,
+        "stop_loss_pct": 5.0
+      }
+    },
+    "Strategy 3": {
+      "description": "Momentum Strategy using MACD & Bollinger Band Width",
+      "indicators": {
+        "macd_fast": 12,
+        "macd_slow": 26,
+        "macd_signal": 9,
+        "bb_length": 20,
+        "bb_std": 2,
+        "take_profit_pct": 5.0,
+        "stop_loss_pct": 5.0
+      }
+    },
+    "Strategy 4": {
+      "description": "Trend Following using 200MA & RSI",
+      "indicators": {
+        "sma_length": 200,
+        "rsi_length": 14,
+        "rsi_threshold": 50,
+        "take_profit_pct": 5.0,
+        "stop_loss_pct": 5.0
+      }
+    }
+  }
+}
