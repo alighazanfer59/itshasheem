@@ -172,13 +172,13 @@ class RSIBreakoutMomentum(BaseStrategy):
                 entry_price = self.trades[-1].entry_price if self.trades else None
                 if entry_price:
                     if self.position.is_long and (
-                        current_price >= entry_price * 1.05
-                        or current_price <= entry_price * 0.95
+                        current_price >= entry_price * (1 + self.take_profit_pct)
+                        or current_price <= entry_price * (1 - self.stop_loss_pct)
                     ):
                         self.position.close()
                     elif self.position.is_short and (
-                        current_price <= entry_price * 0.95
-                        or current_price >= entry_price * 1.05
+                        current_price <= entry_price * (1 - self.take_profit_pct)
+                        or current_price >= entry_price * (1 + self.stop_loss_pct)
                     ):
                         self.position.close()
 
@@ -208,11 +208,15 @@ class MACDBollingerMomentum(BaseStrategy):
             super().init()
             close = self.data.Close
             indicators = self.params.get("indicators", {})
+
             macd_fast = indicators.get("macd_fast", 12)
             macd_slow = indicators.get("macd_slow", 26)
             macd_signal = indicators.get("macd_signal", 9)
             bb_length = indicators.get("bb_length", 20)
             bb_std = indicators.get("bb_std", 2)
+
+            self.take_profit_pct = indicators.get("take_profit_pct", 5) / 100
+            self.stop_loss_pct = indicators.get("stop_loss_pct", 5) / 100
 
             self.macd = self.I(
                 lambda x: ta.trend.macd(
@@ -233,21 +237,19 @@ class MACDBollingerMomentum(BaseStrategy):
     def next(self):
         try:
             current_price = self.data.Close[-1]
-            indicators = self.params.get("indicators", {})
-            take_profit_pct = indicators.get("take_profit_pct", 5) / 100
-            stop_loss_pct = indicators.get("stop_loss_pct", 5) / 100
 
             if self.position:
                 entry_price = self.trades[-1].entry_price if self.trades else None
                 if entry_price:
                     if self.position.is_long and (
-                        current_price >= entry_price * 1.05
-                        or current_price <= entry_price * 0.95
+                        current_price >= entry_price * (1 + self.take_profit_pct)
+                        or current_price <= entry_price * (1 - self.stop_loss_pct)
                     ):
                         self.position.close()
+
                     elif self.position.is_short and (
-                        current_price <= entry_price * 0.95
-                        or current_price >= entry_price * 1.05
+                        current_price <= entry_price * (1 - self.take_profit_pct)
+                        or current_price >= entry_price * (1 + self.stop_loss_pct)
                     ):
                         self.position.close()
 
@@ -277,15 +279,21 @@ class MovingAverageTrend(BaseStrategy):
             super().init()
             close = self.data.Close
             indicators = self.params.get("indicators", {})
+
             ma_length = indicators.get("ma_length", 200)
             rsi_length = indicators.get("rsi_length", 14)
             self.rsi_threshold = indicators.get("rsi_threshold", 50)
 
+            self.take_profit_pct = indicators.get("take_profit_pct", 5) / 100
+            self.stop_loss_pct = indicators.get("stop_loss_pct", 5) / 100
+
             self.sma_200 = self.I(
-                lambda x: ta.trend.sma_indicator(pd.Series(x), ma_length), close
+                lambda x: ta.trend.sma_indicator(pd.Series(x), ma_length),
+                close,
             )
             self.rsi = self.I(
-                lambda x: ta.momentum.rsi(pd.Series(x), rsi_length), close
+                lambda x: ta.momentum.rsi(pd.Series(x), rsi_length),
+                close,
             )
 
         except Exception as e:
@@ -294,21 +302,19 @@ class MovingAverageTrend(BaseStrategy):
     def next(self):
         try:
             current_price = self.data.Close[-1]
-            indicators = self.params.get("indicators", {})
-            take_profit_pct = indicators.get("take_profit_pct", 5) / 100
-            stop_loss_pct = indicators.get("stop_loss_pct", 5) / 100
 
             if self.position:
                 entry_price = self.trades[-1].entry_price if self.trades else None
                 if entry_price:
                     if self.position.is_long and (
-                        current_price >= entry_price * 1.05
-                        or current_price <= entry_price * 0.95
+                        current_price >= entry_price * (1 + self.take_profit_pct)
+                        or current_price <= entry_price * (1 - self.stop_loss_pct)
                     ):
                         self.position.close()
+
                     elif self.position.is_short and (
-                        current_price <= entry_price * 0.95
-                        or current_price >= entry_price * 1.05
+                        current_price <= entry_price * (1 - self.take_profit_pct)
+                        or current_price >= entry_price * (1 + self.stop_loss_pct)
                     ):
                         self.position.close()
 
